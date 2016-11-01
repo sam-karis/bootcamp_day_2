@@ -1,9 +1,9 @@
-import urllib2
+from urllib2 import Request, urlopen
 
 
-request = urllib2.Request('http://placekitten.com/')
+request = Request('http://placekitten.com/')
 
-response = urllib2.urlopen(request)
+response = urlopen(request)
 kittens = response.read()
 
 print kittens[559:1000]
