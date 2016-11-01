@@ -1,6 +1,5 @@
-#!/usr/bin/python
+﻿#!/usr/bin/python
 # -*- coding: iso-8859-15 -*-
-import os, sys
 import unittest
 
 from words import words
